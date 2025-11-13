@@ -1,23 +1,13 @@
-﻿using BepInEx;
-using DanielSteginkUtils.Settings;
-using HarmonyLib;
+using BepInEx;
 
-namespace DanielSteginkUtils
+namespace DanielSteginkUtils;
+
+[BepInAutoPlugin(id: "io.github.danielstegink.danielsteginkutils")]
+public partial class DanielSteginkUtils : BaseUnityPlugin
 {
-    [BepInPlugin(PluginSettings.GUID, PluginSettings.NAME, PluginSettings.VERSION)]
-    public class DanielSteginkUtils : BaseUnityPlugin
+    private void Awake()
     {
-        internal static DanielSteginkUtils Instance;
-
-        public void Awake()
-        {
-            Logger.LogInfo("Initializing");
-            Instance = this;
-
-            Harmony harmony = new Harmony(PluginSettings.GUID);
-            harmony.PatchAll();
-
-            Logger.LogInfo("Initialized");
-        }
+        // Put your initialization logic here
+        Logger.LogInfo($"Plugin {Name} ({Id}) has loaded!");
     }
 }
