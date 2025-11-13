@@ -486,3 +486,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Certain Silksong Template files
+.config/*
+.github/*
+thunderstore/dist/*
+thunderstore/temp/*
