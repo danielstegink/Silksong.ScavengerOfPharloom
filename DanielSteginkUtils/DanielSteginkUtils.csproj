@@ -24,6 +24,11 @@
     <RepositoryUrl>https://github.com/danielstegink/Silksong.DanielSteginkUtils</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="thunderstore\**" />
+    <EmbeddedResource Remove="thunderstore\**" />
+    <None Remove="thunderstore\**" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.4.21" />
     <PackageReference Include="HarmonyX" Version="2.9.0" />
@@ -36,7 +41,6 @@
     <Folder Remove="thunderstore/temp;thunderstore/dist" />
     <None Include="..\.gitignore" Link=".gitignore" />
     <None Include="..\README.md" Link="README.md" />
-    <None Include="thunderstore/icon.png" Pack="True" PackagePath="icon.png" />
   </ItemGroup>
   <Target Name="CopyAndPackageMod" AfterTargets="PostBuildEvent">
     <ItemGroup>
