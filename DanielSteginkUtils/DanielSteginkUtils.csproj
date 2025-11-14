@@ -21,6 +21,8 @@
     <PathMap Condition="'$(Configuration)' == 'Release'">$(MSBuildProjectDirectory)=/</PathMap>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>This is a library of custom helpers and logic for Hollow Knight: Silksong mods.</Description>
     <RepositoryUrl>https://github.com/danielstegink/Silksong.DanielSteginkUtils</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
