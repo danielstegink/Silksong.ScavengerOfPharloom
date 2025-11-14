@@ -39,14 +39,12 @@
   <ItemGroup>
     <None Include="../README.md" Pack="True" PackagePath="README.md" />
     <None Include="../thunderstore/icon.png" Pack="True" PackagePath="icon.png" />
-    <Content Include="../languages/*" Pack="True" PackagePath="languages/*"/>
   </ItemGroup>
   <Target Name="CopyAndPackageMod" AfterTargets="PostBuildEvent">
     <ItemGroup>
       <Binaries Include="$(TargetPath)" LocalDir="/" PackDir="/" />
       <Binaries Include="$(TargetDir)/$(TargetName).pdb" LocalDir="/" PackDir="/" />
-      <Binaries Include="../languages/*.json" PackDir="plugins/languages" LocalDir="/languages/" />
-      <Binaries Include="../languages/*.json" PackDir="languages" />
+      <Binaries Include="../languages/*.json" PackDir="plugins/languages" />
     </ItemGroup>
     <PropertyGroup>
       <ThunderstoreDir>$(ProjectDir)/../thunderstore</ThunderstoreDir>
