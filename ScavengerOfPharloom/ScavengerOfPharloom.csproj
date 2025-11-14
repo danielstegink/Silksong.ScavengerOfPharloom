@@ -39,7 +39,7 @@
   <ItemGroup>
     <None Include="../README.md" Pack="True" PackagePath="README.md" />
     <None Include="../thunderstore/icon.png" Pack="True" PackagePath="icon.png" />
-    <Content Include="../languages" Pack="True" PackagePath="languages"/>
+    <Content Include="../languages/*" Pack="True" PackagePath="languages/*"/>
   </ItemGroup>
   <Target Name="CopyAndPackageMod" AfterTargets="PostBuildEvent">
     <ItemGroup>
