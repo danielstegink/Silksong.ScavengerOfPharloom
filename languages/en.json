@@ -1,0 +1,8 @@
+{
+	"SHARD_NAME": "Shell Pots",
+	"SHARD_DESC": "Allows pots, statues and more to drop shell shards",
+	"ROSARY_NAME": "Wealth of the Citadel",
+	"ROSARY_DESC": "Allows pots in the Citadel to drop rosaries",
+	"SILK_NAME": "Gratitude of the Silk Flies",
+	"SILK_DESC": "Allows Silk Flies to replenish Silk when freed"
+}

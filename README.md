@@ -1,7 +1,8 @@
-# DanielSteginkUtils
+# Scavenger of Pharloom
 
-A code library containing various helper classes and logic I've accumulated in my modding journey.
+The successor to my Geo Pots mod in Hollow Knight.
+This mod has 3 features, all of which can be toggled from the Bepinex menu (F1):
 
-General structure:
-- Utilities - Various libraries for logic and calculations
-	- ClassIntegrations - Accesses properties, fields and methods from other classes
+- Crates, statues, and the remains of Skullbugs have a chance of dropping shell shards.
+- Pots and other containers in the Citadel have a chance of dropping rosaries.
+- Lamps and Cogwork constructs all release Silk Flies, and therefore have a chance to restore Silk.

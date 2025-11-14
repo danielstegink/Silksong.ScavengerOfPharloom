@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanielSteginkUtils", "DanielSteginkUtils\DanielSteginkUtils.csproj", "{BA688F05-10C6-D14A-DB65-CD2D3A18DF9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScavengerOfPharloom", "ScavengerOfPharloom\ScavengerOfPharloom.csproj", "{6B12FE4E-3BF3-C6AB-02B8-165EE3B61B2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA688F05-10C6-D14A-DB65-CD2D3A18DF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA688F05-10C6-D14A-DB65-CD2D3A18DF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA688F05-10C6-D14A-DB65-CD2D3A18DF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA688F05-10C6-D14A-DB65-CD2D3A18DF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B12FE4E-3BF3-C6AB-02B8-165EE3B61B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B12FE4E-3BF3-C6AB-02B8-165EE3B61B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B12FE4E-3BF3-C6AB-02B8-165EE3B61B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B12FE4E-3BF3-C6AB-02B8-165EE3B61B2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
