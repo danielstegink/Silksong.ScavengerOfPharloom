@@ -39,6 +39,8 @@
   <ItemGroup>
     <None Include="../README.md" Pack="True" PackagePath="README.md" />
     <None Include="../thunderstore/icon.png" Pack="True" PackagePath="icon.png" />
+    <None Include="..\Directory.Build.props" Link="Directory.Build.props" />
+    <None Include="..\thunderstore\thunderstore.toml" Link="thunderstore.toml" />
   </ItemGroup>
   <Target Name="CopyAndPackageMod" AfterTargets="PostBuildEvent">
     <ItemGroup>

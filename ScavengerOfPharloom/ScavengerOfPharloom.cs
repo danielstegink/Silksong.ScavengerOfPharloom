@@ -20,6 +20,5 @@ public partial class ScavengerOfPharloom : BaseUnityPlugin
     private void Start()
     {
         ConfigSettings.Initialize(Config);
-
     }
 }
