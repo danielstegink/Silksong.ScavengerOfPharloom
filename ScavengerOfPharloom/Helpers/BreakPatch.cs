@@ -60,7 +60,6 @@ namespace ScavengerOfPharloom.Helpers
                 // The big lamp in the Underworks should give lots of Silk
                 if (__instance.gameObject.name.ToLower().Contains("lamp_pivot"))
                 {
-                    int random = UnityEngine.Random.Range(1, 101);
                     HeroController.instance.AddSilk(3, false);
                 }
                 else if (__instance.gameObject.name.ToLower().Contains("lamp"))

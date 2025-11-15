@@ -29,15 +29,39 @@ namespace ScavengerOfPharloom.Settings
             // Bind set methods to Config
             LocalisedString shardName = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "SHARD_NAME");
             LocalisedString shardDescription = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "SHARD_DESC");
-            setShardDrop = config.Bind("Modifier", shardName, true, shardDescription);
+            if (shardName.Exists &&
+                shardDescription.Exists)
+            {
+                setShardDrop = config.Bind("Modifier", shardName, true, shardDescription);
+            }
+            else
+            {
+                setShardDrop = config.Bind("Modifier", "Shell Pots", true, "Allows pots, statues and more to drop shell shards");
+            }
 
             LocalisedString rosaryName = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "ROSARY_NAME");
             LocalisedString rosaryDescription = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "ROSARY_DESC");
-            setRosaryDrop = config.Bind("Modifier", rosaryName, true, rosaryDescription);
+            if (rosaryName.Exists &&
+                rosaryDescription.Exists)
+            {
+                setRosaryDrop = config.Bind("Modifier", rosaryName, true, rosaryDescription);
+            }
+            else
+            {
+                setRosaryDrop = config.Bind("Modifier", "Wealth of the Citadel", true, "Allows pots in the Citadel to drop rosaries");
+            }
 
             LocalisedString silkName = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "SILK_NAME");
             LocalisedString silkDescription = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "SILK_DESC");
-            setSilkDrop = config.Bind("Modifier", silkName, true, silkDescription);
+            if (silkName.Exists &&
+                silkDescription.Exists)
+            {
+                setSilkDrop = config.Bind("Modifier", silkName, true, silkDescription);
+            }
+            else
+            {
+                setSilkDrop = config.Bind("Modifier", "Gratitude of the Silk Flies", true, "Allows Silk Flies to replenish Silk when freed");
+            }
         }
     }
 }
