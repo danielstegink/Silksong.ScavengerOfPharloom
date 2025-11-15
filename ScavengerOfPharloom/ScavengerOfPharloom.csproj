@@ -39,6 +39,7 @@
   <ItemGroup>
     <None Include="../README.md" Pack="True" PackagePath="README.md" />
     <None Include="../thunderstore/icon.png" Pack="True" PackagePath="icon.png" />
+    <None Include="..\CHANGELOG.md" Link="CHANGELOG.md" />
     <None Include="..\Directory.Build.props" Link="Directory.Build.props" />
     <None Include="..\thunderstore\thunderstore.toml" Link="thunderstore.toml" />
   </ItemGroup>
@@ -46,7 +47,7 @@
     <ItemGroup>
       <Binaries Include="$(TargetPath)" LocalDir="/" PackDir="/" />
       <Binaries Include="$(TargetDir)/$(TargetName).pdb" LocalDir="/" PackDir="/" />
-      <Binaries Include="../languages/*.json" PackDir="plugins/languages" />
+      <Binaries Include="$(ProjectDir)/../languages/*.json" PackDir="languages" />
     </ItemGroup>
     <PropertyGroup>
       <ThunderstoreDir>$(ProjectDir)/../thunderstore</ThunderstoreDir>
