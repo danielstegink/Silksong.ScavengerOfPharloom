@@ -13,7 +13,8 @@ namespace ScavengerOfPharloom.Helpers
             if (ConfigSettings.setSilkDrop.Value)
             {
                 if (__instance.isDead &&
-                    __instance.gameObject.name.ToLower().Contains("automaton"))
+                    __instance.gameObject.name.ToLower().Contains("automaton") &&
+                    !__instance.gameObject.name.ToLower().Contains("breakable"))
                 {
                     int random = UnityEngine.Random.Range(1, 101);
                     if (random <= 50)

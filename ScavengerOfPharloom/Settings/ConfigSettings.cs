@@ -21,6 +21,11 @@ namespace ScavengerOfPharloom.Settings
         public static ConfigEntry<bool> setSilkDrop;
 
         /// <summary>
+        /// Integrates with UI to set lifeblood drop setting
+        /// </summary>
+        public static ConfigEntry<bool> setLifebloodDrop;
+
+        /// <summary>
         /// Initializes the settings
         /// </summary>
         /// <param name="config"></param>
@@ -61,6 +66,18 @@ namespace ScavengerOfPharloom.Settings
             else
             {
                 setSilkDrop = config.Bind("Modifier", "Gratitude of the Silk Flies", true, "Allows Silk Flies to replenish Silk when freed");
+            }
+
+            LocalisedString lifebloodName = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "LIFEBLOOD_NAME");
+            LocalisedString lifebloodDescription = new LocalisedString($"Mods.{ScavengerOfPharloom.Id}", "LIFEBLOOD_DESC");
+            if (lifebloodName.Exists &&
+                lifebloodDescription.Exists)
+            {
+                setLifebloodDrop = config.Bind("Modifier", lifebloodName, true, lifebloodDescription);
+            }
+            else
+            {
+                setLifebloodDrop = config.Bind("Modifier", "Lifeblood Bounty", true, "Allows plasmium bulbs to give lifeblood");
             }
         }
     }

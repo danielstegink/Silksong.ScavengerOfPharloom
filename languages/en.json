@@ -4,5 +4,7 @@
 	"ROSARY_NAME": "Wealth of the Citadel",
 	"ROSARY_DESC": "Allows pots in the Citadel to drop rosaries",
 	"SILK_NAME": "Gratitude of the Silk Flies",
-	"SILK_DESC": "Allows Silk Flies to replenish Silk when freed"
+	"SILK_DESC": "Allows Silk Flies to replenish Silk when freed",
+	"LIFEBLOOD_NAME": "Lifeblood Bounty",
+	"LIFEBLOOD_DESC": "Allows plasmium bulbs to give lifeblood"
 }

@@ -27,6 +27,9 @@
     <RepositoryUrl>https://github.com/danielstegink/Silksong.DanielSteginkUtils</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="..\languages\en.json" Link="en.json" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.4.21" />
     <PackageReference Include="DanielSteginkUtils" Version="1.1.4" />
