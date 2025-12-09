@@ -20,13 +20,14 @@
       },
       "DanielSteginkUtils": {
         "type": "Direct",
-        "requested": "[1.2.0, )",
-        "resolved": "1.2.0",
-        "contentHash": "JMg/2JUDvC0hO/usjrgBkCNm3Ok4mNHJFdrIjibZiAehNwPvkBdaUBnjYHaBJ007KIAWYXm+Z8XoByYP8MRbHA==",
+        "requested": "[2.0.0, )",
+        "resolved": "2.0.0",
+        "contentHash": "GnVMP7XXL0q/4ZaLXkb41ZWC6fr832Xjywfg5LTSynbo7CoSi95vmDcjBwAuwgCzXZ7GvzciaYPZH+FJcqY7xQ==",
         "dependencies": {
           "BepInEx.Core": "5.4.21",
           "HarmonyX": "2.9.0",
-          "UnityEngine.Modules": "6000.0.50"
+          "UnityEngine.Modules": "6000.0.50",
+          "WavLib": "1.1.0"
         }
       },
       "Hamunii.BepInEx.AutoPlugin": {
@@ -389,6 +390,11 @@
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
+      },
+      "WavLib": {
+        "type": "Transitive",
+        "resolved": "1.1.0",
+        "contentHash": "o0fCwP0UQWkbqADwFEGTnib021fxfApOb+sXtwQZtAT7VpsKgSp1uMbwUpycGofM6XyAQKfa1x/cxW2p2mxGWA=="
       }
     }
   }
