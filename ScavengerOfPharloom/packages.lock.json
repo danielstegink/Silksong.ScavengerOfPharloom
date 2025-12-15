@@ -20,9 +20,9 @@
       },
       "DanielSteginkUtils": {
         "type": "Direct",
-        "requested": "[2.0.0, )",
-        "resolved": "2.0.0",
-        "contentHash": "GnVMP7XXL0q/4ZaLXkb41ZWC6fr832Xjywfg5LTSynbo7CoSi95vmDcjBwAuwgCzXZ7GvzciaYPZH+FJcqY7xQ==",
+        "requested": "[2.0.2, )",
+        "resolved": "2.0.2",
+        "contentHash": "KpvfFkvOTNpPaw0YiAQnKDD8e3+3t0vQLezeNW4si213orFYFg+MFUf4Su+4OaNOqneHVtAjHXViDrULHHA+Aw==",
         "dependencies": {
           "BepInEx.Core": "5.4.21",
           "HarmonyX": "2.9.0",
@@ -55,8 +55,8 @@
       "Silksong.GameLibs": {
         "type": "Direct",
         "requested": "[*-*, )",
-        "resolved": "1.1.0-silksong1.0.29315",
-        "contentHash": "HHAt52uzuBXi8cn90/D7WC7YEptcW9yST5fo43lThzRaN6d/TLiXhy7d1Cv3UyACTnryKqINSYPqa2hSbLR+Qg=="
+        "resolved": "1.2.0-silksong1.0.29315",
+        "contentHash": "MwcUC0FMUn7aCwYHWgQegOBxNGgNBDie9nfg0GeodqbnfrHOjUZ06sZjq+0Iiz9/WBL8yd511YZujFS91FgVMw=="
       },
       "UnityEngine.Modules": {
         "type": "Direct",
