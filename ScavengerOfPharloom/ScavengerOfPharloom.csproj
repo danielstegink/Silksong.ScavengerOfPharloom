@@ -51,6 +51,7 @@
       <Binaries Include="$(TargetPath)" LocalDir="/" PackDir="/" />
       <Binaries Include="$(TargetDir)/$(TargetName).pdb" LocalDir="/" PackDir="/" />
       <Binaries Include="$(ProjectDir)/../languages/*.json" LocalDir="/languages" PackDir="languages" />
+      <Binaries Include="$(ProjectDir)/../languages/*.json" PackDir="/plugins/languages/" />
     </ItemGroup>
     <PropertyGroup>
       <ThunderstoreDir>$(ProjectDir)/../thunderstore</ThunderstoreDir>
