@@ -20,9 +20,9 @@
       },
       "DanielSteginkUtils": {
         "type": "Direct",
-        "requested": "[2.0.2, )",
-        "resolved": "2.0.2",
-        "contentHash": "KpvfFkvOTNpPaw0YiAQnKDD8e3+3t0vQLezeNW4si213orFYFg+MFUf4Su+4OaNOqneHVtAjHXViDrULHHA+Aw==",
+        "requested": "[3.0.0, )",
+        "resolved": "3.0.0",
+        "contentHash": "2/WmdpWfpRxSLo/5A6FuvRl4r+SDaj21MHs30BtHboaf7HurJ1YpDibNwOKiL+FqJ0N8bg4hBD8iaeJOEQF7pQ==",
         "dependencies": {
           "BepInEx.Core": "5.4.21",
           "HarmonyX": "2.9.0",
